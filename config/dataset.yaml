@@ -1,5 +1,5 @@
 class_path: dataset.ImageNetDataset
 init_args:
-  data_dir: /usr/local/data
+  data_dir: /tmp/hive
   batch_size: 128
   augment: true

@@ -20,8 +20,8 @@ streamlit run app.py
 ```
 
 Share the address over Internet by `ngrok`:
-1. Download `ngrok` for `arm64` by https://ngrok.com/download;
-2. `unzip ~/Downloads/ngrok-v3-stable-darwin-arm64.zip -d /Users/shu/bin`
+1. Download `ngrok` for `amd64` by https://ngrok.com/download;
+2. `unzip ~/Downloads/ngrok-v3-stable-darwin-amd64.zip -d /usr/local/bin`
 ```bash
 ngrok config add-authtoken 2BqZkoJrrbhDyrPvTad5uRiywvJ_6YHstVohzXtGWYkNL6uw2
 
