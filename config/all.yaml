@@ -1,0 +1,12 @@
+dataset:
+  class_path: dataset.ImageNetDataset
+  init_args:
+    data_dir: /usr/local/data
+    batch_size: 128
+    augment: true
+model:
+  class_path: model.ConvNet
+  init_args:
+    kernel_size: 3
+    num_layers: 5
+    num_classes: 10

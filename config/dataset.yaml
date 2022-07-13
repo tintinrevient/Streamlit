@@ -1,0 +1,5 @@
+class_path: dataset.ImageNetDataset
+init_args:
+  data_dir: /usr/local/data
+  batch_size: 128
+  augment: true
