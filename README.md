@@ -33,6 +33,12 @@ Forwarding                    https://b1ff-145-136-149-195.eu.ngrok.io -> http:/
 
 ## References
 
-* https://spark.apache.org/docs/latest/sql-getting-started.html
+* https://spark.apache.org/docs/latest/sql-getting-started.html#global-temporary-view
 * https://spark.apache.org/docs/latest/sql-data-sources-hive-tables.html
 * https://stackoverflow.com/questions/47855375/pyspark-only-runs-using-sudo
+* https://codesolid.com/pip-vs-pipenv-which-is-better-and-which-to-learn-first/
+* https://medium.com/analytics-vidhya/deploy-flask-streamlit-apps-from-jupyter-notebook-and-google-colab-5c3729dc3647
+* https://polarpersonal.medium.com/building-data-visualization-apps-with-streamlit-and-databricks-sql-54e51bb6b0a8
+* https://docs.streamlit.io/library/api-reference/charts/st.line_chart
+* https://levelup.gitconnected.com/build-a-practical-timeline-in-streamlit-5b3603ade11c
+* https://plotly.com/python/legend/
