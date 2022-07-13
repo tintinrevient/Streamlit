@@ -1,20 +1,18 @@
 from jsonargparse import CLI
 
 
-def main(name: str, year: int = 2022):
-    """Print the basic info
+def talk_about_conference(conference_name: str, year: int = 2022):
+    """Talks about a conference.
     Args:
-        name: Name of the conference
+        conference_name: Name of the conference
         year: Year of the conference
     """
-    print(f"{name} {year} is the best!")
+    print(f"{conference_name} {year} is the best conference ever!")
 
 
-if __name__  == '__main__':
-    CLI(env_prefix='PYCON', default_env=True)
+if __name__ == '__main__':
+    CLI(env_prefix="PYCON", default_env=True)
 
     # python cli.py PYCON --year 2020
-    # python cli.py --print_config > config/config.yaml
     # python cli.py --config config/config.yaml
-    # PYCON_NAME=PYCON PYCON_YEAR=2024 python cli.py
-    
+    # PYCON_CONFERENCE_NAME=PyCON PYCON_YEAR=2024 python cli.py
